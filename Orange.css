@@ -1,0 +1,181 @@
+/*General*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(250, 244, 232);
+    font-family: cursive;
+    min-width: 900px;
+    
+}
+
+
+/*Header */
+
+.header {
+    background-color: rgb(252, 232, 196);
+    width: 100%;
+    height: 160px;
+}
+
+.title {
+    margin-top: 30px;
+    width: 85%;
+    display: inline-block;
+    
+
+}
+.header h1 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(233, 144, 10);
+}
+.logo {
+    width: 15%;
+    position: relative;
+    float: left;
+}
+.logo img {
+    width: 80%;
+    padding: 0.5rem;
+    max-width: 160px;
+}
+
+
+/* Nav */
+
+.menu {
+    background-color: rgb(233, 144, 10);
+    height: 40px;
+}
+.menu ul {
+    list-style: none;
+    position: relative;
+    top: 8px;
+    width: 560px;
+    margin: 0 auto;
+    
+}
+.menu ul li a {
+    float: left;
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke; 
+    height: 20px;  
+}
+.menu ul li a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* Intro */
+.intro {
+    width: 100%;
+    background-image: url(/IMG/types-of-oranges-4d6a86c11fe14668ad798774e16697f8.jpg);
+
+}
+.intro h2, .intro p {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+.intro h2 { 
+    text-align: center;
+    font-size: 3rem;
+}
+.intro p {
+    text-align: justify;
+}
+
+/* Top div */
+.top {
+    width: 100%;
+    margin: 20px auto;;
+    font-size: 2rem;
+    text-align: center;
+}
+.top h2 {
+    width:100%;
+    margin: auto 0;
+}
+
+/*Main*/
+.shop {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.shop h3{
+    background-color: rgb(233, 144, 10);
+    font-size: 2.2rem;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.product {
+    width: 100%;
+    vertical-align: top;
+    
+
+}
+.product-img {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+}
+.product-img img {
+    width: 400px;
+}
+
+.pp {
+    display: inline-block;
+    width: 60%;  
+    margin: 10px;
+    text-align: justify;
+    z-index: 4;
+}
+.product a {
+    color: rgb(233, 144, 10);
+}
+
+
+
+/* Footer */
+footer {
+    background-color: rgb(233, 144, 10);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer h3 {
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    top: 30px;
+}
+
+.vertical-align {
+    
+    vertical-align: top;
+    display: inline-flex;
+}
+
